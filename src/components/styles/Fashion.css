@@ -1,0 +1,65 @@
+.fashion {
+  position: relative;
+  width: 10%;
+  height: 5vh;
+}
+.fashion .fashion-btn {
+  padding: 0.4rem;
+  cursor: pointer;
+  color: white;
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+.fashion .fashion-btn:hover {
+  background-color: white;
+  color: #ed017f;
+}
+
+.fashion .fashion-content {
+  width: 1001.1%;
+  height: 80vh;
+  position: relative;
+  right: 40.5rem;
+  background-color: white;
+  z-index: 2;
+  display: flex;
+}
+
+.fashion-content .fashion-item {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+}
+
+.fashion-content .fashion-item-shift {
+  padding: 2rem 0 0 1rem;
+  width: 50%;
+}
+
+.fashion-content .fashion-sub-item {
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.fashion-content .fashion-sub-items {
+  cursor: pointer;
+  font-size: 0.9rem;
+  padding-bottom: 0.5rem;
+}
+
+.fashion-content .fashion-sub-items:hover {
+  color: #ed017f;
+}
+
+.fashion-content .fashion-image {
+  display: flex;
+  width: 15%;
+}
+
+.fashion-image img {
+  padding: 2rem 0 0 2.5rem;
+  width: 23rem;
+  height: 70vh;
+}

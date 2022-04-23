@@ -1,0 +1,13 @@
+.button{
+    background-color: #ed017f;
+    color: white;
+    width: 9%;
+    margin-right:2rem;
+    border: none;
+    outline: none;
+}
+
+.button:hover{
+    background-color: white;
+    color: #ed017f;
+}

@@ -1,0 +1,24 @@
+.allcategory {
+    position: relative;
+    width: 12%;
+    height: 5vh;
+  }
+  .allcategory .allcategory-btn{
+    padding: .4rem;
+    cursor: pointer;
+    color: white;
+    font-size: .9rem;
+    text-align: center;
+  }
+
+  .allcategory .allcategory-btn:hover{
+    background-color: white;
+    color: #ed017f;
+  }
+
+  .allcategory .allcategory-content{
+      width: 1000%;
+      height: 150vh;
+      position: relative;
+      background-color: whitesmoke;
+  }

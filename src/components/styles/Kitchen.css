@@ -1,0 +1,65 @@
+.kitchen {
+  position: relative;
+  width: 13%;
+  height: 5vh;
+}
+.kitchen .kitchen-btn {
+  padding: 0.4rem;
+  cursor: pointer;
+  color: white;
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+.kitchen .kitchen-btn:hover {
+  background-color: white;
+  color: #ed017f;
+}
+
+.kitchen .kitchen-content {
+  width: 768%;
+  height: 80vh;
+  position: relative;
+  z-index: 2;
+  right: 49rem;
+  background-color: white;
+  display: flex;
+}
+
+.kitchen-content .kitchen-item {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+}
+
+.kitchen-content .kitchen-item-shift {
+  padding: 2rem 0 0 1rem;
+  width: 50%;
+}
+
+.kitchen-content .kitchen-sub-item {
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.kitchen-content .kitchen-sub-items {
+  cursor: pointer;
+  font-size: 0.9rem;
+  padding-bottom: 0.5rem;
+}
+
+.kitchen-content .kitchen-sub-items:hover {
+  color: #ed017f;
+}
+
+.kitchen-content .kitchen-image {
+  display: flex;
+  width: 15%;
+}
+
+.kitchen-image img {
+  padding: 2rem 0 0 2.5rem;
+  width: 23rem;
+  height: 70vh;
+}

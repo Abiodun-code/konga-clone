@@ -1,0 +1,15 @@
+.kongalist{
+    width: 100%;
+    height: 5vh;
+    background-color: whitesmoke;
+}
+.kongalist .shift{
+    padding:  .5rem 10rem 0 5rem;
+    display: flex;
+    justify-content: space-around;
+}
+.kongalist img{
+    width: 5.5rem;
+    height: 3vh;
+    cursor: pointer;
+}

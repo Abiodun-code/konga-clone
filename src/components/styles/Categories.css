@@ -1,0 +1,9 @@
+.categories{
+    background-color: #bf017c;
+    width: 100%;
+    height: 5vh;
+}
+
+.categories-shift{
+    display: flex;
+}

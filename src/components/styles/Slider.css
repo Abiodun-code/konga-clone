@@ -1,0 +1,17 @@
+.slider{
+    width: 70%;
+    height: 65.2vh;
+}
+
+.mySwiper{
+    width: 94%;
+    height: 65.2vh;
+    border-radius: .5rem;
+    margin: 2rem;
+}
+
+.mySwiper img{
+    width: 100%;
+    cursor: pointer;
+    height: 65.2vh;
+}

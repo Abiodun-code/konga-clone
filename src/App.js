@@ -1,23 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+import BarShop from './components/body/BarShop';
+import Categories from './components/body/Categories';
+import KongaList from './components/body/KongaList';
+import KongaListItem from './components/body/KongaListItem';
+import KongaNote from './components/body/KongaNote';
+import KongaShop from './components/body/KongaShop';
+import KongaShopList from './components/body/KongaShopList';
+import KongaSlider from './components/body/KongaSlider';
+import LaptopBrand from './components/body/LaptopBrand';
+import Mobile from './components/body/Mobile';
+import ProCard from './components/body/ProCard';
+import TopKonga from './components/body/TopKonga'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <TopKonga/>
+      <KongaList/>
+      <KongaListItem/>
+      <Categories/>
+      <KongaSlider />
+      <KongaShop/>
+      <KongaShopList/>
+      <Mobile/>
+      <BarShop/>
+      <ProCard/>
+      <LaptopBrand/>
+      <KongaNote/>
     </div>
   );
 }

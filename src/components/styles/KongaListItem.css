@@ -1,0 +1,55 @@
+.kongalistitem{
+    background-color: #ed017f;
+    width: 100%;
+    height: 10vh;
+}
+
+.kongalistitem .shift{
+    padding: 1rem 0 0 2rem;
+    display: flex;
+}
+
+.kongalistitem .shift img{
+    width: 7rem;
+    height: 5vh;
+    padding-right: 1.5rem;
+}
+
+.kongalistitem .shift h5{
+    font-weight: 300;
+    width: 10%;
+    color: white;
+    cursor: pointer;
+}
+
+.kongalistitem .shift h5:hover{
+    background-color: white;
+    color: #ed017f;
+}
+
+.kongalistitem .shift form{
+    display: flex;
+    width: 40%;
+}
+
+.kongalistitem .shift input[type=text]{ 
+    width: 80%;
+    height: 4.5vh;
+    padding: 1rem; 
+    border: 1px solid #ccc;
+    margin-top: .5rem;
+    margin-bottom: 1rem;
+    border-bottom-left-radius: 0.25rem;
+}
+
+.kongalistitem .shift input[type=button]{
+    width: 15%;
+    height: 5vh;
+    border: .1rem solid #ccc;
+    margin-top: .5rem;
+    background-color: #fba100;
+    border-bottom-right-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+    color: #ed017f;
+    cursor: pointer;
+}

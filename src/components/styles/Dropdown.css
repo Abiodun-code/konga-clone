@@ -1,0 +1,35 @@
+.dropdown {
+  position: relative;
+  width: 10%;
+}
+
+.dropdown .dropdown-btn {
+  width: 100%;
+  padding: .9rem;
+  background-color: #ed017f;
+  cursor: pointer;
+  color: white;
+}
+
+.dropdown .dropdown-btn:hover {
+  background-color: white;
+  color: #ed017f;
+}
+
+.dropdown .dropdown-content {
+  width: 130%;
+  position: relative;
+  z-index: 2;
+  background-color: white;
+  box-shadow: 3px 3px 10px 6px rgba(0, 0, 0, 0.06);
+}
+
+.dropdown .dropdown-content .dropdown-item {
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+.dropdown .dropdown-content .dropdown-item:hover {
+  background-color: whitesmoke;
+  color: #ed017f;
+}

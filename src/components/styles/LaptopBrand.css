@@ -1,0 +1,38 @@
+.laptopbrand {
+  width: 100%;
+  height: 51vh;
+  margin-top: 2rem;
+}
+
+.laptopbrand .laptopbrand-shift {
+  margin-left: 2rem;
+  width: 96.3%;
+  height: 51vh;
+  display: block;
+  background-color: #f4f4f4;
+}
+
+.laptopbrand-shift .laptopbrand-top,
+.laptopbrand-shift .laptopbrand-bottom {
+  width: 100%;
+  height: 25vh;
+  display: flex;
+}
+
+.laptopbrand-top .laptopbrand-card{
+  width: 18%;
+  height: 20vh;
+  padding-left: 0.1rem;
+}
+
+.laptopbrand-bottom .laptopbrand-card{
+    width: 18%;
+    height: 20vh;
+    padding: 0.2rem 0 0.1rem 0.1rem;
+}
+
+.laptopbrand-card img {
+  width: 100%;
+  height: 25vh;
+  cursor: pointer;
+}

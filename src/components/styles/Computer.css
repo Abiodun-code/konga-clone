@@ -1,0 +1,66 @@
+.computer {
+  position: relative;
+  width: 17%;
+  height: 5vh;
+}
+.computer .computer-btn {
+  padding: 0.4rem;
+  cursor: pointer;
+  color: white;
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+.computer .computer-btn:hover {
+  background-color: white;
+  color: #ed017f;
+}
+
+.computer .computer-content {
+  width: 585%;
+  height: 80vh;
+  position: relative;
+  right: 9.5rem;
+  background-color: white;
+  z-index: 2;
+  display: flex;
+  overflow: hidden;
+}
+
+.computer-content .computer-item {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+}
+
+.computer-content .computer-item-shift {
+  padding: 2rem 0 0 1rem;
+  width: 50%;
+}
+
+.computer-content .computer-sub-item {
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.computer-content .computer-sub-items {
+  cursor: pointer;
+  font-size: 0.9rem;
+  padding-bottom: 0.5rem;
+}
+
+.computer-content .computer-sub-items:hover {
+  color: #ed017f;
+}
+
+.computer-content .computer-image {
+  display: flex;
+  width: 15%;
+}
+
+.computer-image img {
+  padding: 2rem 0 0 2.5rem;
+  width: 23rem;
+  height: 70vh;
+}

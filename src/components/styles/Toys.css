@@ -1,0 +1,66 @@
+.toys {
+    position: relative;
+    width: 14%;
+    height: 5vh;
+  }
+  .toys .toys-btn{
+    padding: .4rem;
+    cursor: pointer;
+    color: white;
+    font-size: .9rem;
+    text-align: center;
+  }
+
+  .toys .toys-btn:hover{
+    background-color: white;
+    color: #ed017f;
+  }
+
+  .toys .toys-content{
+      width: 710.5%;
+      height: 80vh;
+      position: relative;
+      right: 59.5rem;
+      background-color: white;
+      display: flex;
+      z-index: 2;
+  }
+
+  .toys-content .toys-item {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+  }
+  
+  .toys-content .toys-item-shift {
+    padding: 2rem 0 0 1rem;
+    width: 50%;
+  }
+  
+  .toys-content .toys-sub-item {
+    font-weight: 600;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .toys-content .toys-sub-items {
+    cursor: pointer;
+    font-size: 0.9rem;
+    padding-bottom: 0.5rem;
+  }
+  
+  .toys-content .toys-sub-items:hover {
+    color: #ed017f;
+  }
+  
+  .toys-content .toys-image {
+    display: flex;
+    width: 15%;
+  }
+  
+  .toys-image img {
+    padding: 2rem 0 0 2.5rem;
+    width: 23rem;
+    height: 70vh;
+  }
+  

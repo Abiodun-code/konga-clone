@@ -1,0 +1,28 @@
+.barshop{
+    width: 100%;
+    height: 30vh;
+    margin-top: 2rem;
+}
+
+.barshop .barshop-shift{
+    margin-left: 2rem;
+    width: 96.3%;
+    height: 30vh;
+    display: flex;
+    border-radius: .5rem;
+    background-color: white;
+}
+
+.barshop-shift .barshop-card{
+    width: 100%;
+    height: 29vh;
+    cursor: pointer;
+    border-radius: .5rem;
+}
+
+.barshop-card img{
+    width: 100%;
+    height: 29.7vh;
+    padding: .5rem;
+    border-radius: .5rem;
+}

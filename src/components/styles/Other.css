@@ -1,0 +1,66 @@
+.other {
+    position: relative;
+    width: 13%;
+    height: 5vh;
+  }
+  .other .other-btn{
+    padding: .4rem;
+    cursor: pointer;
+    color: white;
+    font-size: .9rem;
+    text-align: center;
+  }
+
+  .other .other-btn:hover{
+    background-color: white;
+    color: #ed017f;
+  }
+
+  .other .other-content {
+    width: 768%;
+    height: 80vh;
+    position: relative;
+    right: 70.5rem;
+    background-color: white;
+    z-index: 2;
+    display: flex;
+  }
+  
+  .other-content .other-item {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+  }
+  
+  .other-content .other-item-shift {
+    padding: 2rem 0 0 1rem;
+    width: 50%;
+  }
+  
+  .other-content .other-sub-item {
+    font-weight: 600;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .other-content .other-sub-items {
+    cursor: pointer;
+    font-size: 0.9rem;
+    padding-bottom: 0.5rem;
+  }
+  
+  .other-content .other-sub-items:hover {
+    color: #ed017f;
+  }
+  
+  .other-content .other-image {
+    display: flex;
+    width: 15%;
+  }
+  
+  .other-image img {
+    padding: 2rem 0 0 2.5rem;
+    width: 23rem;
+    height: 70vh;
+  }
+  

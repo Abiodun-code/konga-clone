@@ -1,0 +1,66 @@
+.electronic {
+    position: relative;
+    width: 9%;
+    height: 5vh;
+  }
+  .electronic .electronic-btn{
+    padding: .4rem;
+    cursor: pointer;
+    color: white;
+    font-size: .9rem;
+    text-align: center;
+  }
+
+  .electronic .electronic-btn:hover{
+    background-color: white;
+    color: #ed017f;
+  }
+
+  .electronic .electronic-content{
+      width: 1110%;
+      height: 80vh;
+      position: relative;
+      background-color: white;
+      right: 33.5rem;
+      z-index: 2;
+      display: flex;
+  }
+
+  .electronic-content .electronic-item {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+  }
+  
+  .electronic-content .electronic-item-shift {
+    padding: 2rem 0 0 1rem;
+    width: 50%;
+  }
+  
+  .electronic-content .electronic-sub-item {
+    font-weight: 600;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .electronic-content .electronic-sub-items {
+    cursor: pointer;
+    font-size: 0.9rem;
+    padding-bottom: 0.5rem;
+  }
+  
+  .electronic-content .electronic-sub-items:hover {
+    color: #ed017f;
+  }
+  
+  .electronic-content .electronic-image {
+    display: flex;
+    width: 15%;
+  }
+  
+  .electronic-image img {
+    padding: 2rem 0 0 2.5rem;
+    width: 23rem;
+    height: 70vh;
+  }
+  

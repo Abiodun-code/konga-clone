@@ -1,0 +1,28 @@
+.slidercard{
+    width: 30%;
+    height: 65.5vh;
+}
+
+.slidercard-shift{
+    width: 95%;
+    height: 65.5vh;
+    margin: 2rem 0 0 0;
+    display: block;
+}
+
+.slidercard-top{
+    display: flex;
+    justify-content: space-between;
+}
+.slidercard-bottom{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1rem;
+}
+
+.slidercard-shift img, .slidercard-bottom img{
+    width: 47.5%;
+    border-radius: .5rem;
+    height: 31.6vh;
+    cursor: pointer;
+}

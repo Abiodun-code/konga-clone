@@ -1,0 +1,49 @@
+.procard{
+    width: 100%;
+    height: 50vh;
+    margin-top: 2rem;
+}
+
+.procard .procard-shift{
+    margin-left: 2rem;
+    width: 96.3%;
+    height: 50vh;
+    display: flex;
+    justify-content: space-between;
+    border-radius: .5rem;
+}
+
+.procard-shift .procard-card{
+    width: 24%;
+    border-radius: .5rem;
+    height: 50vh;
+    background-color: white;
+}
+
+.procard-card img{
+    border-top-left-radius: .5rem;
+    border-top-right-radius: .5rem;
+    width: 100%;
+}
+
+.procard-card h1{
+    padding: 2rem 0 0 1rem;
+    font-size: 1.2rem;
+}
+
+.procard-card p{
+    padding: .8em 0 0 1rem;
+    font-size: .9rem;
+}
+
+.procard-card h5{
+    padding: 1rem 0 0 1rem;
+    font-size: 1.2rem;
+    color: #ed017f;
+    cursor: pointer;
+}
+
+.procard-card .h5{
+    padding: .3rem 0 0 1rem;
+    
+}

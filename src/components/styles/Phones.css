@@ -1,0 +1,65 @@
+.phones {
+  position: relative;
+  width: 12%;
+  height: 5vh;
+}
+.phones .phones-btn {
+  padding: 0.4rem;
+  cursor: pointer;
+  color: white;
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+.phones .phones-btn:hover {
+  background-color: white;
+  color: #ed017f;
+}
+
+.phones .phones-content {
+  width: 830%;
+  height: 80vh;
+  position: relative;
+  right: 23.5rem;
+  z-index: 2;
+  background-color: white;
+  display: flex;
+}
+
+.phones-item{
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.phones-content .phones-item-shift {
+  padding: 2rem 0 0 1rem;
+  width: 50%;
+}
+
+.phones-content .phones-sub-item {
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.phones-content .phones-sub-items {
+  cursor: pointer;
+  font-size: 0.9rem;
+  padding-bottom: 0.5rem;
+}
+
+.phones-content .phones-sub-items:hover {
+  color: #ed017f;
+}
+
+.phones-content .phones-image {
+  display: flex;
+  width: 15%;
+}
+
+.phones-image img {
+  padding: 2rem 0 0 2.5rem;
+  width: 23rem;
+  height: 70vh;
+}
