@@ -9,7 +9,8 @@ import KongaSlider from './components/body/KongaSlider';
 import LaptopBrand from './components/body/LaptopBrand';
 import Mobile from './components/body/Mobile';
 import ProCard from './components/body/ProCard';
-import TopKonga from './components/body/TopKonga'
+import TopKonga from './components/body/TopKonga';
+import Hello from './components/body/Hello';
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
       <ProCard/>
       <LaptopBrand/>
       <KongaNote/>
+      <Hello />
     </div>
   );
 }
